@@ -15,4 +15,9 @@ public class HomeController {
     public String heathCheck() {
         return "check";
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "test";
+    }
 }
