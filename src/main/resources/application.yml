@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: nginx-jenkins-aws-test
+  profiles:
+    active: dev
