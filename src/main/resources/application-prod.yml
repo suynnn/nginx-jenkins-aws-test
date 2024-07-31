@@ -1,12 +1,15 @@
 ---
 spring:
-  profiles: set1
+  config:
+    activate:
+      on-profile: set1
 server:
   port: 8081
 
 ---
 spring:
-  profiles: set2
-
+  config:
+    activate:
+      on-profile: set2
 server:
   port: 8082

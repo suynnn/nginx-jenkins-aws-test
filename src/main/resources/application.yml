@@ -1,6 +1,5 @@
 spring:
   application:
     name: nginx-jenkins-aws-test
-  config:
-    activate:
-      on-profile: dev
+  profiles:
+    active: dev
